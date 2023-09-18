@@ -1,0 +1,208 @@
+/*common start*/
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+
+/*header start*/
+
+
+header{
+	padding: 30px 0;
+	/*border: 1px solid red;*/
+}
+	.container{
+		margin: 0 auto;
+		width: 90%;
+		/*border: 1px solid;*/
+		overflow: hidden;
+	}
+	.logo{
+		margin-top: 12px;
+		width: 12%;
+		/*border: 1px solid red;*/
+		float: left;
+	} 
+	.logo a{}
+	.logo a lmg{
+		width: 100%;
+	}
+	.menu{
+		width: 75%;
+		/*border: 1px solid red;*/
+		float: right;
+	}
+	.menu ul{
+		float: right;
+	}
+	.menu ul li{
+		list-style: none;
+		float: left;
+	}
+	.menu ul li a{
+		margin: 0 60px;
+		display: inline-blockl;
+		color: #626262;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-bottom: 1px solid transparent;
+		transition: .33s;
+	}
+	.menu ul li a:hover{
+		border-bottom: 1px solid #626262;
+	}
+
+	.menu ul li:last-child a{ 
+		margin-right: 0;
+	}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%
+}
+
+
+/*banner end*/
+
+/*getaway star*/
+.getaway{
+	padding: 100px 0;
+}
+.container2{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid;*/
+}
+.g-section{}
+
+.c_light{
+	margin: 0;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.mt_60{
+	margin-top: 50px;
+
+}
+/*getaway end*/
+
+/*blog1 start*/
+.blog1{
+	padding: 100px 0;
+	/*border: 1px solid red;*/
+}
+.s_blog{
+	float: left;
+	width: 47%;
+	box-sizing: border-box;
+}
+.s_blog:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 30px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog1 end*/
+
+/*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container3{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	color: #333333;
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.for_from{
+	width: 350px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.for_from input{
+	background: transparent;
+	border: none; 
+	border-bottom: 1px solid black;
+	font-size: 18px;
+	width: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 60px;
+}
+.for_from button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 8px;
+	right: 0px;
+}
+.for_from input{
+	background: transparent;
+}
+/*newsletter end*/
+
+/*blog2 start*/
+.blog2{
+	padding-top: 30px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 55%;
+	overflow: hidden;
+}
+.s_blog{
+	margin-top: 70px
+	width: 47%;
+	float: left;
+	box-sizing: border-box;
+}
+.s_blog:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 30px;
+}
+.s_img img{
+	width: 100%;
+}
+.c-light {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+	margin: 10px 0 20px;
+}
